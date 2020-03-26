@@ -144,6 +144,6 @@ if __name__ == '__main__':
         
         if 0 < len(board.list_fllippable_disk(pos_x, pos_y, color)):
             board.fllip_disk(pos_x, pos_y, color)
-            turn = (turn + 1) % 2
+            turn = (turn + 1) % 2           
         else:
             print('その場所はおけません')
